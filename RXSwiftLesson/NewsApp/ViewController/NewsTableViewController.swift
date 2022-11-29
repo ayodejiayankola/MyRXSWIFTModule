@@ -52,7 +52,7 @@ class NewsTableViewController: UITableViewController {
 	
 	
 	private func populateNews(){
-		URLRequest.load(resource: ArticlesList.all)
+		URLRequest.loadTwo(resource: ArticlesList.all)
 			.subscribe(onNext: { [weak self] result in
 				if let result = result {
 					self?.articles = result.articles
