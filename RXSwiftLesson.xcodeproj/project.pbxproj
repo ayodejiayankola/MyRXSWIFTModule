@@ -21,6 +21,8 @@
 		357410412906FD02002EF233 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357410402906FD02002EF233 /* AddTaskViewController.swift */; };
 		357410442906FF90002EF233 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357410432906FF90002EF233 /* Task.swift */; };
 		357BBD6D29194A610022A2AE /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357BBD6C29194A610022A2AE /* NewsTableViewController.swift */; };
+		357FD45F2938E07200FD2B6B /* MVVMNewsAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357FD45E2938E07200FD2B6B /* MVVMNewsAppViewController.swift */; };
+		357FD4622938E27900FD2B6B /* MVVMModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357FD4612938E27900FD2B6B /* MVVMModel.swift */; };
 		358B3521291BB1F70030223C /* ArticlesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358B3520291BB1F70030223C /* ArticlesList.swift */; };
 		359324172926641800FC867B /* WeatherDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359324162926641800FC867B /* WeatherDetailsViewController.swift */; };
 		359D26642922447A004333A9 /* URLRequest+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359D26632922447A004333A9 /* URLRequest+Extensions.swift */; };
@@ -31,6 +33,8 @@
 		35F14A3228D46DFE004EBF1C /* SearchCityCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F14A3128D46DFE004EBF1C /* SearchCityCoordinator.swift */; };
 		35F14A3428D46E19004EBF1C /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F14A3328D46E19004EBF1C /* Coordinator.swift */; };
 		35F14A3628D4702E004EBF1C /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F14A3528D4702E004EBF1C /* BaseCoordinator.swift */; };
+		35F7F0342939EA6000ACA8C9 /* ArticleVIewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F7F0332939EA6000ACA8C9 /* ArticleVIewModel.swift */; };
+		35F7F0372939EE7800ACA8C9 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F7F0362939EE7800ACA8C9 /* ArticleTableViewCell.swift */; };
 		5BEC8846F846AAE37C661348 /* Pods_RXSwiftLesson.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C7F2E559BE4B81ED719DB2 /* Pods_RXSwiftLesson.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +58,8 @@
 		357410402906FD02002EF233 /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
 		357410432906FF90002EF233 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		357BBD6C29194A610022A2AE /* NewsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
+		357FD45E2938E07200FD2B6B /* MVVMNewsAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMNewsAppViewController.swift; sourceTree = "<group>"; };
+		357FD4612938E27900FD2B6B /* MVVMModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMModel.swift; sourceTree = "<group>"; };
 		358B3520291BB1F70030223C /* ArticlesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesList.swift; sourceTree = "<group>"; };
 		359324162926641800FC867B /* WeatherDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailsViewController.swift; sourceTree = "<group>"; };
 		359D26632922447A004333A9 /* URLRequest+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Extensions.swift"; sourceTree = "<group>"; };
@@ -64,6 +70,8 @@
 		35F14A3128D46DFE004EBF1C /* SearchCityCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCityCoordinator.swift; sourceTree = "<group>"; };
 		35F14A3328D46E19004EBF1C /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		35F14A3528D4702E004EBF1C /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		35F7F0332939EA6000ACA8C9 /* ArticleVIewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleVIewModel.swift; sourceTree = "<group>"; };
+		35F7F0362939EE7800ACA8C9 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
 		628DAD960895EF86C333F55B /* Pods-RXSwiftLesson.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXSwiftLesson.release.xcconfig"; path = "Target Support Files/Pods-RXSwiftLesson/Pods-RXSwiftLesson.release.xcconfig"; sourceTree = "<group>"; };
 		85C7F2E559BE4B81ED719DB2 /* Pods_RXSwiftLesson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RXSwiftLesson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -125,6 +133,7 @@
 		351EEBD128C25E8C00E9A672 /* RXSwiftLesson */ = {
 			isa = PBXGroup;
 			children = (
+				357FD45D2938E05500FD2B6B /* MVVMNewsApp */,
 				35932415292663E900FC867B /* WeatherApp */,
 				357BBD6A29194A090022A2AE /* NewsApp */,
 				35679B7029144DD9008DB97E /* MyPlayground.playground */,
@@ -197,6 +206,25 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		357FD45D2938E05500FD2B6B /* MVVMNewsApp */ = {
+			isa = PBXGroup;
+			children = (
+				35F7F0352939EE5500ACA8C9 /* Cells */,
+				35F7F0322939EA4900ACA8C9 /* ViewModels */,
+				357FD4602938E23A00FD2B6B /* Model */,
+				357FD45E2938E07200FD2B6B /* MVVMNewsAppViewController.swift */,
+			);
+			path = MVVMNewsApp;
+			sourceTree = "<group>";
+		};
+		357FD4602938E23A00FD2B6B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				357FD4612938E27900FD2B6B /* MVVMModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		358B351F291BB1E40030223C /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -250,6 +278,22 @@
 				35F14A3528D4702E004EBF1C /* BaseCoordinator.swift */,
 			);
 			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		35F7F0322939EA4900ACA8C9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				35F7F0332939EA6000ACA8C9 /* ArticleVIewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		35F7F0352939EE5500ACA8C9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				35F7F0362939EE7800ACA8C9 /* ArticleTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		ED3C6C218EE509FDB36EA2CB /* Pods */ = {
@@ -381,10 +425,12 @@
 				35D7D07F28F479E90042C476 /* PhotoCollectionViewCell.swift in Sources */,
 				351EEBD328C25E8C00E9A672 /* AppDelegate.swift in Sources */,
 				359D26642922447A004333A9 /* URLRequest+Extensions.swift in Sources */,
+				357FD45F2938E07200FD2B6B /* MVVMNewsAppViewController.swift in Sources */,
 				351DEEB828F8161200ADAC44 /* FilterService.swift in Sources */,
 				35D28706292B9BC60034310C /* WeatherResult.swift in Sources */,
 				35F14A3428D46E19004EBF1C /* Coordinator.swift in Sources */,
 				3574103F2906DC40002EF233 /* TaskListViewController.swift in Sources */,
+				35F7F0372939EE7800ACA8C9 /* ArticleTableViewCell.swift in Sources */,
 				359324172926641800FC867B /* WeatherDetailsViewController.swift in Sources */,
 				35D7D07D28F46E640042C476 /* CameraFilterSecondCollectionViewController.swift in Sources */,
 				35F14A3228D46DFE004EBF1C /* SearchCityCoordinator.swift in Sources */,
@@ -392,8 +438,10 @@
 				35F14A3628D4702E004EBF1C /* BaseCoordinator.swift in Sources */,
 				351EEBD528C25E8C00E9A672 /* SceneDelegate.swift in Sources */,
 				35D7D07B28F46E580042C476 /* CameraFilterFirstViewController.swift in Sources */,
+				35F7F0342939EA6000ACA8C9 /* ArticleVIewModel.swift in Sources */,
 				358B3521291BB1F70030223C /* ArticlesList.swift in Sources */,
 				35489F4428C743E70044B983 /* SearchCityViewModel.swift in Sources */,
+				357FD4622938E27900FD2B6B /* MVVMModel.swift in Sources */,
 				35130734291D699F003DA69E /* NewsTableViewCell.swift in Sources */,
 				357410442906FF90002EF233 /* Task.swift in Sources */,
 				357410412906FD02002EF233 /* AddTaskViewController.swift in Sources */,
